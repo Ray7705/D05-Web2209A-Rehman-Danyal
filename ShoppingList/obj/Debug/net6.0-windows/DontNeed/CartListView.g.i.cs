@@ -53,7 +53,7 @@ namespace ShoppingList.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ShoppingList;component/dontneed/cartlistview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ShoppingList;V1.0.0.0;component/dontneed/cartlistview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\DontNeed\CartListView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

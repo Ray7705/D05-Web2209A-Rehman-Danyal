@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Chevalier.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Chevalier.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Chevalier.Utility.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Chevalier.Utility/1.0.0": {
+      "type": "project",
+      "path": "../../D05-Web2209A/Utility/Chevalier.Utility/Chevalier.Utility.csproj",
+      "msbuildProject": "../../D05-Web2209A/Utility/Chevalier.Utility/Chevalier.Utility.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Chevalier.Utility >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\git code\\D05-Web2209A\\Utility\\Chevalier.Utility\\Chevalier.Utility.csproj": {
+              "projectPath": "D:\\git code\\D05-Web2209A\\Utility\\Chevalier.Utility\\Chevalier.Utility.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
